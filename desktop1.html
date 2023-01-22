@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Encriptador</title>
+</head>
+<body>
+    
+    <header>
+        <h1>
+            <figure  class="logo">
+                <img class="logo-img" src="./imagenes/Logo.png" alt="logo">
+            </figure>
+        </h1>
+    </header>
+    <main>
+        
+        <section class="mensaje">
+            <textarea name="mensaje-normal" id="mensajeNormal" cols="40" rows="17" placeholder="Ingrese el texto aqui" ></textarea>
+            <div class="mensaje-abvertencia">
+                <figure class="mensaje-abvertencia-fig">
+                    <img class="mensaje-abvertencia-img" src="./imagenes/bi_exclamation-circle-fill.png" alt="exclamacion">
+                </figure>
+                <p class="mensaje-abvertencia-texto">Solo letras minusculas y sin acentos</p>
+            </div>
+            <div class="mensaje-boton">
+
+                 <button id="botonEncriptar" class="mensaje-boton-encriptar">
+                    <span class="mensaje-boton-encriptar-texto">Encriptar</span> 
+                </button>
+
+                <button id="desencriptar" class="mensaje-boton-desencriptar">
+                    <span class="mensaje-boton-encriptar-texto2">Desencriptar</span> 
+                </button>
+
+            </div>
+        </section>
+      
+        <section  class="encriptacion">
+            <div id="ocultar">
+                <figure>
+                    <img id="encriptado" class="muñeco" src="./imagenes/Muñeco.png" alt="Muñeco">
+                </figure>
+                <div class="encriptacion-texto">
+                    <p class="encriptacion-texto_1"> Ningún mensaje fue encontrado</p>
+                    <p class="encriptacion-texto_2">Ingresa el texto que desees encriptar o desencriptar</p>
+                </div>
+            </div>
+            <div id="areaMostrar" class="encriptacion-copiar" >
+                <div class="encriptacion-mensaje-contenedor">
+                    <p class="encriptacion-mensaje" id="textoEncriptado"></p>
+                </div>
+                <button id="copiarMostrar" class="encriptado-boton-copiar">
+                    <span class="mensaje-boton-encriptar-texto2">Copiar</span> 
+                </button>
+            </div>
+        </section>
+        
+    </main>
+
+    <footer>
+        <figure>
+            <a href="https://www.instagram.com/oscar__javier98/" target="_blank">
+                <img src="https://elordenmundial.com/wp-content/uploads/2021/10/instagram-aplicacion-tecnologia-lanzamiento-sociedad-historia.jpg" alt="instagram">
+            </a>
+        </figure>
+        <figure>
+            <a href="https://www.linkedin.com/in/oscar-javier-aguirre-rojas/" target="_blank">
+                <img src="https://1000marcas.net/wp-content/uploads/2020/01/Logo-Linkedin.png" alt="Linkedln">
+            </a>
+        </figure>
+        <figure>
+            <a href="https://github.com/Oscar980817" target="_blank">
+                <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="Github">
+            </a>
+        </figure>
+    </footer>
+    
+    <script src="./desktop.js"></script>
+    
+</body>
+</html>
